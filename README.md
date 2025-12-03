@@ -31,6 +31,9 @@ git commit -m "mensagem"
 # Envia para o GitHub 
 git push origin main
 
+# Conecta repositório local com o repositório remoto
+git remote add origin URL
+
 # Atualizar projeto
 git pull
 
@@ -51,7 +54,7 @@ git branch nomedabranch
 git checkout develop
 
 # Cria e muda para o branch chamada develop
-git checkout -b develop  = git branch develop e git checkout develop
+git checkout -b develop = git branch develop e git checkout develop
 
 # Envia branch para o GitHub
 git push -u origin develop 
