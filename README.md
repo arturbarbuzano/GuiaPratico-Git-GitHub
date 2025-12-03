@@ -2,7 +2,6 @@
 
 Este arquivo apresenta comandos básicos para começar a usar **Git** e **GitHub** em projetos individuais ou colaborativos. 
 
----
 
 ```sh
 # Configuração LOCAL (apenas para este repositório)
@@ -34,6 +33,12 @@ git push origin main
 
 # Atualizar projeto
 git pull
+
+# Visualizar histórico de commits
+git log
+
+# Visualizar status atual do repositório
+git status
 
 # Certifica de estar no branch main atualizado
 git checkout main
