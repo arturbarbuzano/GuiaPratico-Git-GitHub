@@ -29,7 +29,7 @@ git add .
 # Criar commit
 git commit -m "mensagem"
 
-# Envie para o GitHub 
+# Envia para o GitHub 
 git push origin main
 
 # Atualizar projeto
@@ -51,7 +51,7 @@ git checkout -b develop  = git branch develop e git checkout develop
 # Envia branch para o GitHub
 git push -u origin develop 
 
-# Baixe informações sobre branches remotos
+# Baixa informações sobre branches remotos
 git fetch origin
 
 ```
